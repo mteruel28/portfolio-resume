@@ -87,7 +87,7 @@ font-size: 2rem;
   }
 
   .navbar__links:hover { /*allows colors to change when hovering over different menu items*/
-    color:#b21f1f;  
+    color:#fdbb2d;  
     transition: all 0.8s ease;
   }
 
