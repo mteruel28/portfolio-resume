@@ -32,8 +32,8 @@ z-index:999;
 #navbar__logo{ /*changes logo/title of website to desired color*/
 background-color : #75cfff;
 background: #1a2a6c;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background-size: 100%;
 -webkit-background-clip: text;
 background-clip: text;
@@ -68,7 +68,7 @@ font-size: 2rem;
     transition: all 0.3s ease;
   }
 
-  .button{ /*accessibility button feature is centered and highlighted for users*/
+  .button{ /*Contact button feature is centered and highlighted for users*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,3 +181,5 @@ font-size: 2rem;
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+
